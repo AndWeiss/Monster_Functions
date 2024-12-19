@@ -15,5 +15,11 @@ void show_text(){
   text(key_input,1,4*txtSize);
   text("Punkte",width-200,txtSize);
   text(str(score),width-200,2*txtSize);
+  
+  if (show_equation){
+    // show the equation to hit the monsters
+      text(function_str, width - width/2, txtSize);
+  }
+  
   popMatrix();
 }

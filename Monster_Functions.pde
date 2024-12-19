@@ -10,15 +10,23 @@ float x_scale = 1;
 float dist_limit = 10;
 
 int ballSize     = 10;
-int Nmonster = 0;
-int score    = 0;
+int monster_iter = 0; // the iteration of monster to use each time a new monster when 
+int score        = 0;
+int degree       = 2; // the polynomial degree of the function (if type_str is "polynomial" )
+int Nmonsters    = 1; // number of monsters that are shown on the screen
+int type_i       = 0; // 0 is direct proportional
 
-String key_input = "";
-String type_str  = "direct"; // or indirect
 
-boolean start_shoot = false;
-boolean hit = false;
-boolean random_shift = false;
+String key_input    = "";
+String type_str     = "direct"; // or indirect or polynomial 
+String function_str = "ax";
+String[] types      = {"direct","indirect","polynomial"};
+
+boolean start_shoot      = false;
+boolean hit              = false;
+boolean random_shift     = false;
+boolean was_hit          = false;
+boolean show_equation    = false;
 
 
 void setup(){

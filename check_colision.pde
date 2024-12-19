@@ -14,6 +14,7 @@ void check_collision(){
     if(dis[i] < dist_limit ){
       hit = true;
       show_result(i);
+      was_hit = true;
       //start_shoot = false;
       //posBall[0] = 0;
       //posBall[1] = 0;

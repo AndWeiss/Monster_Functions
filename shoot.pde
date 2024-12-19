@@ -9,6 +9,7 @@ void shoot(){
    posBall[0] += 10 / x_scale; // int(random(width));
    posBall[1] = float(key_input) / posBall[0] ; 
  }
+ // check if the ball is out of the window screen
  if (x_scale*posBall[0] > width || posBall[1] > yshift || posBall[1] < -height + yshift ){
    posBall[0] = 0;
    posBall[1] = 0;
@@ -17,6 +18,8 @@ void shoot(){
      posBall[1] = gross_number;
    }
    start_shoot = false;
-   show_result(0);
+   if (was_hit == false){
+     show_result(0);
+   }
  }
 }
