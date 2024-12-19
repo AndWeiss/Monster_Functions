@@ -2,7 +2,9 @@
 
 # An interactive learning tool / video game. 
 
-For students of 7th grade in German Gymnasium.  
+For students of 7th grade or higher in German Gymnasium.  
+
+To use you need to download the Processing application [processing.org/download](https://processing.org/download). Runs on all platforms.
 
 The goal is to hit the monsters that appear in random positions with a ball. 
 To hit the monsters a parameter of the function must be calculated (proportionalitätsfaktor, gesamtgröße).
