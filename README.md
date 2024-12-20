@@ -4,7 +4,8 @@
 
 For students of 7th grade or higher in German Gymnasium.  
 
-To use you need to download the Processing application [processing.org/download](https://processing.org/download). Runs on all platforms.
+To use you need to download the Processing application [processing.org/download](https://processing.org/download).
+Open one of the files from the repository  with the ending ".pde" (e.g. Monster_Functions.pde) and push play on the upper left corner.  
 
 The goal is to hit the monsters that appear in random positions with a ball. 
 To hit the monsters a parameter of the function must be calculated (proportionalitätsfaktor, gesamtgröße).
