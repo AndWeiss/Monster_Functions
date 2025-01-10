@@ -7,10 +7,10 @@ void show_text(){
   text("Position Monster:", 1, txtSize); 
   text("x = " + str(posMonster[0][0]) + "| y = " + str(posMonster[0][1]) , 1, 2*txtSize);
   if(type_str == "direct"){
-    text("Proportionalitaetsfaktor",1,3*txtSize);
+    text("Proportionalitaetsfaktor p",1,3*txtSize);
   }
   else if (type_str == "indirect"){
-    text("Gesamtgroesse",1,3*txtSize);
+    text("Gesamtgroesse g",1,3*txtSize);
   }
   text(key_input,1,4*txtSize);
   text("Punkte",width-200,txtSize);
